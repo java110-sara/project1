@@ -10,8 +10,8 @@ public class Knapsack {
       // Treasure A: size 8 cubic cm, and is worth $40
       // Treasure B: size 3 cubic cm, and is worth $10
       // Treasure C: size 1 cubic cm, and is worth $2
-      int TREASURE_A_SIZE = 8, TREASURE_B_SIZE = 3, TREASURE_C_SIZE = 1;
-      int TREASURE_A_VALUE = 40, TREASURE_B_VALUE = 10, TREASURE_C_VALUE = 2;
+      final int TREASURE_A_SIZE = 8, TREASURE_B_SIZE = 3, TREASURE_C_SIZE = 1;
+      final int TREASURE_A_VALUE = 40, TREASURE_B_VALUE = 10, TREASURE_C_VALUE = 2;
       
       // declare var int for user input knapsack size
       int knapsackSize;
